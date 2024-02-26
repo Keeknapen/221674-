@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Links to the CSS styles from Bootstrap. -->
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <!-- -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <!-- -->
@@ -43,14 +46,14 @@
             "w-100" makes sure the image takes the full width of the column it's in
             "rounded-circle" cuts a circle around the image
           -->
-          <img class="w-100 rounded-circle my-3" src="C:\Users\31620\OneDrive\Afbeeldingen\Foto's Kee\7bd2a792-0241-49e7-a0f0-89fd3890aae4.jpeg" alt="Portrait of Firstname Lastname" width="160">
+          <img class="w-100 rounded-circle my-3" src="C:\Users\31620\OneDrive\Documenten\GitHub\221674-\images\employers\Picture Kee.jpeg" alt="Portrait of Firstname Lastname" width="160">
         </div>
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
           <h1 class="fw-bolder">Kee Knapen&nbsp;</h1>
-          <h5 class="fst-italic tagline">Your expert in creative marketing.</h5>
+          <h5 class="fst-italic tagline">Your expert in creative marketing and production.</h5>
         </div>
       </header>
 
@@ -70,50 +73,58 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
-            <h2>Professional Experience</h2>
+  <h2>Professional Experience</h2>
+			<section class="my-3 biography-section anton-regular">
+<h2>&nbsp;</h2>
+<!--
+              Each list item (li) in the unordered list (ul) below will be one job.
+              "list-unstyled" is a class that hides the bullet points of a list.
+            -->
+<ul class="biography-list list-unstyled">
+ 
+              <!-- Top item (generally the latest or most relevant) in professional experience -->
+<li class="biography-item row mb-2">
+<!-- We're using a grid inside a grid so we can align logos and text -->
+<div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
+<img class="biography-logo mw-100 d-block mx-auto" src="C:\Users\31620\OneDrive\Documenten\GitHub\221674-\images\icons\laptop.jpg" alt="Company logo" width="80">
+</div>
+<div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+<h4>Realestate&nbsp;commercial inside sales</h4>
+<h5>2019-2023&nbsp;</h5>
+<!-- Use the list below to talk about your achievements -->
+<ul class="biography-details list-unstyled">
+<li>&nbsp;Van Santvoort Makelaars in the region of Eersel and Eindhoven&nbsp;</li>
+<li>&nbsp; Every Saturdays and in vacations&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+<li>&nbsp;Secretarial skills</li>
+</ul>
+</div>
+</li>
+ 
+              <!-- 2nd item in professional experience -->
+<li class="biography-item row mb-2">
+<div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
+<!-- We're using a grid inside a grid so we can align logos and text -->
+<img class="biography-logo mw-100 d-block mx-auto" src="C:\Users\31620\OneDrive\Documenten\GitHub\221674-\images\icons\clothes.jpg" alt="Company logo" width="80">
+</div>
+<div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
+<h4>Clothing store employee&nbsp;</h4>
+<h5>&nbsp;2023- now</h5>
+<ul class="biography-details list-unstyled">
+<li>Always July in Bergeijk&nbsp;&nbsp;</li>
+<li>Every Saturday and in vacations&nbsp;</li>
+<li>Advising customers in terms of fashion&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</li>
+</ul>
+<!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
+</div>
+</li>
+ 
+            </ul>
+</section>
             <p>&nbsp;</p>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
-            -->
-            <ul class="biography-list list-unstyled">
-
-              <!-- Top item (generally the latest or most relevant) in professional experience -->
-              <li class="biography-item row mb-2">
-                <!-- We're using a grid inside a grid so we can align logos and text -->
-                <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="C:\Users\31620\OneDrive\Documenten\GitHub\221674-\images\icons\github.svg" alt="Company logo" width="70">
-                </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Realestate employee, Van Santvoort Makelaars&nbsp;</h4>
-                  <h5>2019-2023&nbsp;</h5>
-                  <!-- Use the list below to talk about your achievements -->
-                  <ul class="biography-details list-unstyled">
-                    <li>Coordinated shootings in studio and on location</li>
-                    <li>Liaised with local authorities and with suppliers</li>
-                    <li>Part of my studies at Breda University of Applied Sciences</li>
-                  </ul>
-                </div>
-              </li>
-
-              <!-- 2nd item in professional experience -->
-              <li class="biography-item row mb-2">
-                <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                <!-- We're using a grid inside a grid so we can align logos and text -->
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/trolley.svg" alt="Company logo" width="80">
-                </div>
-                <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-					
-                  <h4>Clothing store employee, Always July&nbsp;</h4>
-                  <h5>2023- now&nbsp;</h5>
-                  <p>styling and branding&nbsp;</p>
-<p>&nbsp;</p>
-                  <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
-                </div>
-              </li>
-
-            </ul>
-          </section>
+            -->          </section>
 
           <!-- We're done with jobs, let's move on to schools -->
 
@@ -127,13 +138,13 @@
                   <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
+                  <h4>Second year Creative Business student, Breda University of Applied Sciences</h4>
                   <h5>2018&nbsp;&ndash;&nbsp;now</h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
-                    <li>Member of the student participation council</li>
-                    <li>Minor in resilient entrepreneurship</li>
-                    <li>Exchange with Bournemouth University</li>
+                    <li>Production House department TV&nbsp;&nbsp;</li>
+                    <li>Two future workplacements planned&nbsp; &nbsp;&nbsp;&nbsp;</li>
+                    <li>Roles such as: producer, host, copywriter, production designer&nbsp; &nbsp;</li>
                   </ul>
                 </div>
               </li>
@@ -182,7 +193,7 @@
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://facebook.com/" target="_blank">
+                <a class="d-flex align-items-center" href="https://www.facebook.com/profile.php?id=100082063454428" target="_blank">
                   <img class="contact-icon" src="images/icons/facebook.svg" alt="Facebook">
                   Facebook Profile
                 </a>
@@ -195,8 +206,8 @@
               </li>
               <li class="contact-item">
                 <a class="d-flex align-items-center" href="https://www.tiktok.com/@bredauniversityas" target="_blank">
-                  <img class="contact-icon" src="images/icons/tiktok.svg" alt="Mobile Phone">
-                  TikTok @bredauniversityas
+                  <img class="contact-icon" href=  "https://www.linkedin.com/in/kee-knapen-532299219/" src="C:\Users\31620\OneDrive\Documenten\GitHub\221674-\images\icons\linkedin.svg" alt="Mobile Phone"> Likedin 
+                
                 </a>
               </li>
             </ul>
@@ -225,15 +236,15 @@
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">Spanish</h5>
+                <h5 class="language-name w-50">German&nbsp;</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-50"></div>
-                  <h6 class="position-absolute w-100 text-center top-0 py-1">Advanced</h6>
+                  <h6 class="position-absolute w-100 text-center top-0 py-1">Average&nbsp;</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
-                <h5 class="language-name w-50">German</h5>
+                <h5 class="language-name w-50">&nbsp;Spanish</h5>
                 <div class="language-level w-50 border border-info border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
                   <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
@@ -249,7 +260,7 @@
             <h2>Other Skills</h2>
             <ul class="skill-list list-unstyled">
               <li class="skill-item">Team player</li>
-              <li class="skill-item">Microsoft Office Power User</li>
+              <li class="skill-item">loyal&nbsp;</li>
               <li class="skill-item">Driving Licence</li>
             </ul>
           </section>
@@ -259,12 +270,13 @@
           <section class="my-3 aside-section">
             <h2>Interests &amp; Hobbies</h2>
             <ul class="skill-list list-unstyled">
-              <li class="skill-item">Formula 1 Driver</li>
-              <li class="skill-item">Netflix Binge-Watcher</li>
+              <li class="skill-item">Dancing and sport&nbsp; &nbsp;&nbsp;&nbsp;</li>
+              <li class="skill-item"> Cooking&nbsp;</li>
+              <li class="skill-item">&nbsp;Festivals&nbsp;</li>
             </ul>
           </section>
 
-        </aside>
+      </aside>
       </div>
     </div>
 
