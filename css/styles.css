@@ -26,6 +26,14 @@ body {
 	background-color: #fff0e0;
 }
 
+.customclass {
+	color: black;
+}
+
+.language-progress {
+	background-color: coral;
+}
+
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
